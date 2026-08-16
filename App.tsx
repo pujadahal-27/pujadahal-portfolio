@@ -130,7 +130,7 @@ export default function Home() {
   const [activeCase, setActiveCase] = useState<CaseKey | null>(null);
   const [progress, setProgress] = useState(0);
   const [cursorStyle, setCursorStyle] = useState<CursorKey>("moon");
-  const [cursorStudio, setCursorStudio] = useState(false);
+  const [cursorStudio, setCursorStudio] = useState(true);
   const [cursorNotice, setCursorNotice] = useState("");
 
   useEffect(() => {

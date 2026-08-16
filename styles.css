@@ -292,7 +292,7 @@ footer { min-height: 84px; display: flex; align-items: center; justify-content: 
   .section-wrap { padding-inline: max(18px, env(safe-area-inset-left)); }
   .hero { gap: 46px; padding-top: 54px; padding-bottom: 34px; }
   .eyebrow, .section-kicker { margin-bottom: 18px; font-size: .57rem; }
-  .hero h1 { font-size: clamp(2.75rem, 11vw, 4rem); line-height: .93; letter-spacing: -.05em; overflow-wrap: normal; }
+  .hero h1 { font-size: clamp(3.05rem, 14vw, 4.65rem); line-height: .91; letter-spacing: -.05em; overflow-wrap: anywhere; }
   .hero-dek { margin-top: 26px; font-size: 1.02rem; line-height: 1.55; }
   .nature-line { gap: 8px 12px; font-size: .58rem; line-height: 1.5; }
   .nature-line span { display: inline-flex; align-items: center; gap: 12px; }
