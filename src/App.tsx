@@ -187,8 +187,18 @@ export default function Home() {
   return (
     <main className="site">
       <div className="reading-cursor" data-cursor={cursorStyle} aria-hidden="true">
-        {cursorOptions.map((option) => <CursorArtwork key={option.id} kind={option.id} />)}
-      </div>
+  <img
+    src="/crow-cursor.webp"
+    alt=""
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "contain",
+      display: "block",
+      pointerEvents: "none",
+    }}
+  />
+</div>
       <div className="progress-bar" style={{ width: `${progress}%` }} aria-hidden="true" />
 
       <aside className={`cursor-studio ${cursorStudio ? "is-open" : ""}`} aria-label="Choose a cursor style">
