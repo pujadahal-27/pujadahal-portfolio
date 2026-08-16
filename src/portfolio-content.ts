@@ -3,17 +3,19 @@
  * The page layout and cursor illustrations live in page.tsx.
  * Colours and responsive spacing live at the top and bottom of globals.css.
  */
+
 export const portfolio = {
   name: "Puja Dahal",
-  roleLine: "Writer · cultural guide · curious listener",
+  roleLine: "Writer · researcher · cultural communicator",
   location: "Kathmandu, Nepal",
   email: "workwithpuzz@gmail.com",
 
   hero: {
-    eyebrow: "Writer · cultural guide · curious listener",
+    eyebrow: "Writer · researcher · cultural communicator",
     titleStart: "I turn close attention into",
     titleEmphasis: "clear communication.",
-    description: "I write, research, guide and teach. Across each role, I listen carefully, understand the context and make information useful to other people.",
+    description:
+      "I write, research, guide and teach. Most of my work begins with the same thing: noticing what a person, place or piece of information needs before deciding how to explain it.",
     qualities: ["Curious", "Observant", "People-centred"],
     photo: "/puja-profile.jpeg",
     photoAlt: "Puja Dahal smiling beneath prayer flags",
@@ -23,86 +25,129 @@ export const portfolio = {
 
   highlights: {
     education: "MA English · 3.76 CGPA",
-    profileLabel: "Published writer & verified guide ↗",
+    profileLabel: "Published writing · NATHM-trained guide ↗",
     profileLink: "https://globalecotrails.com/meet-the-team",
-    location: "Based in Kathmandu",
+    location: "Kathmandu, Nepal",
   },
 
   about: {
     photo: "/puja-editorial.jpeg",
     photoAlt: "Black and white portrait of Puja in a leafy courtyard",
     photoCaption: "A quiet corner in Kathmandu.",
-    heading: "Curiosity is how I work.",
+    heading: "A little about me.",
     paragraphs: [
-      "I pay attention to people, places and the small details that explain a larger situation. That habit helps me ask better questions, find connections and understand what an audience needs.",
-      "My literature degree trained me to read closely and build an argument. Writing taught me to research and structure information. Guiding and teaching taught me to adapt—in real time—to the person in front of me.",
+      "I tend to notice the smaller things: what people skip, which story is missing, and how the same place changes depending on who is speaking.",
+      "That is partly why I studied literature, became a guide, taught different kinds of learners and began writing.",
+      "My MA trained me to read closely, research carefully and build an argument. Guiding taught me to change an explanation while speaking. Teaching taught me that information is only useful when it reaches the person in front of it.",
+      "I now want to bring those habits into communications, documentation and project support for organisations working with people and communities. I am especially interested in nature, culture and the stories through which we understand the world, but I am open to social-impact work across sectors.",
     ],
     signature: "Puja",
   },
 
-  workIntro: "Each example shows the published outcome first. Open the context to see the problem, my contribution and the result.",
+  workIntro:
+    "These are a few pieces I wrote for Global Eco Trails. Each one asks for a different kind of attention: practical, cultural or research-based.",
+
   cases: {
     khopra: {
       number: "01",
-      kind: "Travel writing",
-      title: "A practical guide for first-time trekkers",
-      teaser: "Clear preparation advice for Khopra, organised around the decisions a beginner actually has to make.",
-      brief: "Help first-time trekkers understand pace, preparation, rest and trail choice without turning the journey into a checklist.",
-      contribution: "I shaped the article around the questions a nervous first-time trekker would actually ask, then paired practical advice with a strong sense of place.",
-      outcome: "Published by Global Eco Trails in July 2026.",
+      kind: "Travel and practical writing",
+      title: "A Practical Guide for First-Time Trekkers",
+      teaser:
+        "A beginner-focused trekking guide combining practical preparation with attention to pace, comfort and the different ways people experience difficulty.",
+      brief:
+        "A beginner-focused trekking guide combining practical preparation with attention to pace, comfort and the different ways people experience difficulty.",
+      contribution: "I wrote this piece for Global Eco Trails.",
+      outcome: "Written for Global Eco Trails.",
       link: "https://globalecotrails.com/blog/beginner-friendly-treks-khopra-trekking-tips",
     },
+
     monasteries: {
       number: "02",
-      kind: "Cultural writing",
-      title: "Monasteries along the Everest Base Camp trail",
-      teaser: "Cultural context that helps travellers understand these monasteries as living spaces, not scenic stops.",
-      brief: "Introduce the monasteries along the Everest Base Camp route with enough context to help travellers meet them respectfully.",
-      contribution: "I combined research, cultural framing and clear structure so readers could understand both the route and the meaning held along it.",
-      outcome: "Published cultural travel article for Global Eco Trails.",
+      kind: "Cultural and research-based writing",
+      title: "Monasteries Along the Everest Base Camp Trail",
+      teaser:
+        "An introduction to monasteries along the route, written to help travellers encounter them as living cultural and spiritual spaces rather than scenic stops.",
+      brief:
+        "An introduction to monasteries along the route, written to help travellers encounter them as living cultural and spiritual spaces rather than scenic stops.",
+      contribution: "I wrote this piece for Global Eco Trails.",
+      outcome: "Written for Global Eco Trails.",
       link: "https://globalecotrails.com/blog/exploring-the-monasteries-of-the-ebc-trek",
     },
+
     mustang: {
       number: "03",
-      kind: "Research & guide writing",
-      title: "A guide to festivals in Upper Mustang",
-      teaser: "Complex cultural information organised into a useful guide without losing its specificity.",
-      brief: "Give interested travellers a useful way into Upper Mustang's seasonal, spiritual and community celebrations.",
-      contribution: "I organised scattered cultural information into an accessible guide, keeping the language concise while preserving the specificity of each ritual.",
-      outcome: "Published destination guide for Global Eco Trails in May 2026.",
+      kind: "Research and destination writing",
+      title: "A Guide to Festivals in Upper Mustang",
+      teaser:
+        "A researched guide organising festivals, rituals and community practices into clear, accessible information for travellers.",
+      brief:
+        "A researched guide organising festivals, rituals and community practices into clear, accessible information for travellers.",
+      contribution: "I wrote this piece for Global Eco Trails.",
+      outcome: "Written for Global Eco Trails.",
       link: "https://globalecotrails.com/blog/festival-in-upper-mustang",
     },
   },
 
   testimonial: {
     quote: "“Our guides, Netra and Puja, were fantastic.”",
-    source: "Alan S. · United Kingdom · after a two-week journey in Nepal",
+    source: "Global Eco Trails client review",
     link: "https://globalecotrails.com/client-reviews",
   },
 
   strengths: [
-    { number: "01", title: "I make culture understandable.", text: "I guide people through Kathmandu Valley heritage in English, adapting the story to the questions in front of me." },
-    { number: "02", title: "I change the explanation.", text: "I supported a visually impaired Grade 11–12 learner across six subjects, adjusting pace and method around accessibility." },
-    { number: "03", title: "I stay with the learner.", text: "I worked with two literacy learners over several months, moving from phonics toward independent reading." },
+    {
+      number: "01",
+      title: "Independent city guide",
+      text:
+        "I conduct personalised English-language city tours in Kathmandu Valley, explaining history, culture, religion, architecture and the environment according to the interests of the person in front of me.",
+    },
+    {
+      number: "02",
+      title: "Adaptive teaching",
+      text:
+        "I prepared lesson plans and curriculum materials, supported a visually impaired Grade 11–12 learner, worked with two literacy learners and completed a limited number of formal progress reports.",
+    },
+    {
+      number: "03",
+      title: "Close reading and argument",
+      text:
+        "My academic work combines literary analysis, environmental thought, research and clear argument.",
+    },
   ],
 
   method: [
-    { number: "01", title: "Listen closely", text: "Find what the person, reader or place actually needs." },
-    { number: "02", title: "Connect the dots", text: "Make the useful relationship visible inside scattered information." },
-    { number: "03", title: "Shape the message", text: "Choose a structure and voice that let the idea move." },
+    {
+      number: "01",
+      title: "Communications and content",
+      text:
+        "Articles, website copy, public information and audience-focused writing.",
+    },
+    {
+      number: "02",
+      title: "Research and documentation",
+      text:
+        "Background research, summaries, reports, case documentation and information organisation.",
+    },
+    {
+      number: "03",
+      title: "Learning and project support",
+      text:
+        "Lesson planning, curriculum materials, progress notes, bilingual communication and adapting information for different learners and audiences.",
+    },
   ],
 
   contact: {
-    heading: "Let’s talk about the work.",
-    description: "I am open to roles in writing, research, education and cultural communication—especially work that values care, context and clear thinking.",
+    heading: "Let’s talk about useful work.",
+    description:
+      "I am open to communications, content, documentation and project-support opportunities with NGOs, INGOs and other organisations working across social, cultural, educational, environmental and development sectors. I am also interested in research guidance and thoughtful collaborations.",
   },
 
   quickScan: {
-    heading: "Puja turns close attention into clear, human communication.",
+    heading: "A writer, researcher and cultural communicator.",
     items: [
-      ["She offers", "Writing, research, cultural communication and teaching"],
-      ["You can verify", "Published work, a public guide profile and a client review"],
-      ["Her strength", "Listening closely, connecting ideas and explaining with care"],
+      ["She offers", "Writing, research, documentation and cultural communication"],
+      ["She has", "Published travel writing, MA research, adaptive teaching and certified guide training"],
+      ["She is interested in", "Social-impact communications, documentation and project support"],
       ["Based in", "Kathmandu, Nepal"],
     ],
   },
