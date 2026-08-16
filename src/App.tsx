@@ -201,24 +201,8 @@ export default function Home() {
 </div>
       <div className="progress-bar" style={{ width: `${progress}%` }} aria-hidden="true" />
 
-      <aside className={`cursor-studio ${cursorStudio ? "is-open" : ""}`} aria-label="Choose a cursor style">
-        <button className="cursor-toggle" onClick={() => setCursorStudio((open) => !open)} aria-expanded={cursorStudio}>
-          <span>Try 10 cursors</span>
-          <b>{cursorOptions.find((option) => option.id === cursorStyle)?.mark}</b>
-        </button>
-        <div className="cursor-menu">
-          <div className="cursor-menu-head"><span>Ten little companions</span><small>Hover to meet one. Click to keep it.</small></div>
-          {cursorOptions.map((option) => (
-            <button key={option.id} className="cursor-option" onPointerEnter={() => setCursorStyle(option.id)} onFocus={() => setCursorStyle(option.id)} onClick={() => chooseCursor(option.id)} aria-pressed={cursorStyle === option.id}>
-              <span className={`cursor-swatch swatch-${option.id}`}><CursorArtwork kind={option.id} preview /></span>
-              <span>{option.name}</span>
-              <b>{cursorStyle === option.id ? "Previewing" : "Try it"}</b>
-            </button>
-          ))}
-        </div>
-      </aside>
-      {cursorNotice && <div className="cursor-notice" role="status">{cursorNotice} <span>✓</span></div>}
-
+      
+      
       <header className="nav-shell">
         <a className="wordmark" href="#top">{portfolio.name}<span>✦</span></a>
         <nav aria-label="Portfolio navigation">
