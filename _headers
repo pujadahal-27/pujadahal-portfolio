@@ -1,5 +1,8 @@
 /*
+  X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
+/Puja_Dahal_CV.pdf
+  Content-Disposition: attachment; filename="Puja_Dahal_CV.pdf"
