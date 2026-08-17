@@ -330,7 +330,7 @@ export default function Home() {
           </div>
           <div className="contact-foot">
             <span>{portfolio.location}</span>
-            <button onClick={() => setQuickScan(true)}>Read the 30-second introduction ↗</button>
+          <a href="/Puja_Dahal_CV.pdf" download>Download CV ↓</a>
           </div>
         </div>
         <Cat className="contact-cat" />
