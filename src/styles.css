@@ -241,6 +241,73 @@ footer { min-height: 84px; display: flex; align-items: center; justify-content: 
 .quick-list > div, .case-list > div { display: grid; grid-template-columns: .32fr 1fr; gap: 28px; padding: 21px 0; border-bottom: 1px solid var(--line); }
 .quick-list dt, .case-list dt { color: var(--cherry); font-size: .58rem; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; }
 .quick-list dd, .case-list dd { margin: 0; font: 400 .98rem/1.55 var(--serif); }
+
+.quick-intro {
+  max-width: 620px;
+  margin: -24px 0 34px;
+  color: var(--muted);
+  font: 400 1rem/1.6 var(--serif);
+}
+
+.quick-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.quick-card {
+  position: relative;
+  min-height: 170px;
+  padding: 22px 22px 24px;
+  border: 1px solid var(--ink);
+  background: var(--white);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.quick-card:nth-child(2),
+.quick-card:nth-child(3) {
+  transform: rotate(.35deg);
+}
+
+.quick-card:hover {
+  transform: translateY(-3px) rotate(0deg);
+  box-shadow: 5px 5px 0 var(--cherry);
+}
+
+.quick-card-number {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  color: var(--cherry);
+  font: 600 .65rem/1 var(--sans);
+  letter-spacing: .14em;
+}
+
+.quick-card-label {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--cherry);
+  font: 600 .62rem/1.2 var(--sans);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.quick-card p {
+  max-width: 28ch;
+  margin: 0;
+  font: 400 1.08rem/1.45 var(--serif);
+}
+
+@media (max-width: 700px) {
+  .quick-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-card {
+    min-height: auto;
+  }
+}
 .modal-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 .modal-actions a, .modal-primary { display: inline-block; padding: 12px 14px; color: var(--white); background: var(--ink); border: 1px solid var(--ink); font-size: .59rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; }
 .modal-actions a:last-child { color: var(--ink); background: transparent; }
