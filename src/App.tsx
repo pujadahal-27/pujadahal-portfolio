@@ -330,7 +330,9 @@ export default function Home() {
           </div>
           <div className="contact-foot">
             <span>{portfolio.location}</span>
-          <a href="/Puja_Dahal_CV.pdf" download>Download CV ↓</a>
+          <a href="/Puja_Dahal_CV.pdf" target="_blank" rel="noopener noreferrer">
+  View CV ↗
+</a>
           </div>
         </div>
         <Cat className="contact-cat" />
