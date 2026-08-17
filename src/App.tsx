@@ -183,7 +183,7 @@ export default function Home() {
     setCursorNotice(`${selected} selected`);
     window.setTimeout(() => setCursorNotice(""), 1800);
   };
-
+  
   return (
     <main className="site">
       <div className="reading-cursor" data-cursor={cursorStyle} aria-hidden="true">
