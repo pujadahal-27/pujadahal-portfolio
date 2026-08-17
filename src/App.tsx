@@ -346,15 +346,30 @@ export default function Home() {
         <div className="overlay" onMouseDown={() => setQuickScan(false)}>
           <article className="modal" role="dialog" aria-modal="true" aria-labelledby="quick-title" onMouseDown={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setQuickScan(false)}>Close ×</button>
-            <span className="modal-label">The 30-second version</span>
-            <h2 id="quick-title">{portfolio.quickScan.heading}</h2>
-            <dl className="quick-list">
-              {portfolio.quickScan.items.map(([term, detail]) => <div key={term}><dt>{term}</dt><dd>{detail}</dd></div>)}
-            </dl>
-            <div className="modal-actions">
-              <a href="#work" onClick={() => setQuickScan(false)}>See selected work ↓</a>
-              <a href={`mailto:${portfolio.email}`}>Email Puja ↗</a>
-            </div>
+           <span className="modal-label">The 30-second version</span>
+
+<h2 id="quick-title">{portfolio.quickScan.heading}</h2>
+
+<p className="quick-intro">
+  The short version, if you are deciding whether to keep scrolling.
+</p>
+
+<div className="quick-cards">
+  {portfolio.quickScan.items.map(([term, detail], index) => (
+    <div className={`quick-card quick-card-${index + 1}`} key={term}>
+      <span className="quick-card-number">0{index + 1}</span>
+      <span className="quick-card-label">{term}</span>
+      <p>{detail}</p>
+    </div>
+  ))}
+</div>
+
+<div className="modal-actions">
+  <a href="#work" onClick={() => setQuickScan(false)}>
+    See selected work ↓
+  </a>
+  <a href={`mailto:${portfolio.email}`}>Email Puja ↗</a>
+</div>
           </article>
         </div>
       )}
