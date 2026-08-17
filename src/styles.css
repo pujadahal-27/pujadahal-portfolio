@@ -226,8 +226,8 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--cherry); outlin
 .contact-email a:hover { opacity: .68; }
 .contact-foot { display: flex; justify-content: space-between; align-items: center; gap: 25px; max-width: 820px; margin: 24px auto 0; }
 .contact-foot > span { color: rgba(255,255,255,.62); font-size: .58rem; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; }
-.contact button { padding: 0 0 4px; color: var(--white); background: transparent; border: 0; border-bottom: 1px solid rgba(255,255,255,.8); font-size: .58rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; transition: opacity .2s ease; }
-.contact button:hover { opacity: .68; }
+.contact button, .contact-foot a { padding: 0 0 4px; color: var(--white); background: transparent; border: 0; border-bottom: 1px solid rgba(255,255,255,.8); font-size: .58rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; transition: opacity .2s ease; }
+.contact button:hover, .contact-foot a:hover { opacity: .68; }
 .contact-cat { position: absolute; right: 5%; bottom: -18px; width: 145px; color: rgba(255,255,255,.78); }
 
 footer { min-height: 84px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px clamp(22px, 5.5vw, 88px); border-top: 1px solid rgba(255,255,255,.28); color: var(--white); background: var(--cherry); font-size: .59rem; letter-spacing: .1em; text-transform: uppercase; }
