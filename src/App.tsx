@@ -442,7 +442,7 @@ export default function Home() {
           </p>
 
           <div className="contact-actions">
-            <a href="mailto:workwithpuzz@gmail.com"><span>Email</span><span>↗</span></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=workwithpuzz@gmail.com" target="_blank" rel="noopener noreferrer"><span>Email</span><span>↗</span></a>
             <a href="/Puja_Dahal_CV.pdf" target="_blank" rel="noopener noreferrer"><span>CV</span><span>↗</span></a>
             <a href="https://pujadahal.com.np/" target="_blank" rel="noopener noreferrer"><span>Portfolio</span><span>↗</span></a>
           </div>
@@ -450,7 +450,7 @@ export default function Home() {
           <div className="site-footer">
             <span>
               Puja Dahal · Kathmandu, Nepal ·{" "}
-              <a href="mailto:workwithpuzz@gmail.com">workwithpuzz@gmail.com</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=workwithpuzz@gmail.com" target="_blank" rel="noopener noreferrer">workwithpuzz@gmail.com</a>
             </span>
             <a href="#top">Back to top ↑</a>
           </div>
