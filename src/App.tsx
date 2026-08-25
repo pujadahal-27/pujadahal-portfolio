@@ -444,7 +444,7 @@ export default function Home() {
           <div className="contact-actions">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=workwithpuzz@gmail.com" target="_blank" rel="noopener noreferrer"><span>Email</span><span>↗</span></a>
             <a href="/Puja_Dahal_CV.pdf" target="_blank" rel="noopener noreferrer"><span>CV</span><span>↗</span></a>
-            <a href="https://pujadahal.com.np/" target="_blank" rel="noopener noreferrer"><span>Portfolio</span><span>↗</span></a>
+           <a href="/Puja_Dahal_Portfolio.pdf" download="Puja_Dahal_Portfolio.pdf"><span>Download Portfolio</span><span>↓</span></a>
           </div>
 
           <div className="site-footer">
